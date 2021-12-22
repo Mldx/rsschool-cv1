@@ -10,7 +10,7 @@
 * GitHub: [Mldx](https://github.com/Mldx)
 
 ### About me: 
-My name is Anton and I want to study Front-End Development at RSScool. In 2017, I graduated from BNTU as a Software Engineer. 
+My name is Anton and I want to study Front-End Development at RSScool. In 2017, I graduated BNTU as a Software Engineer. 
 
 ### Skills:
 * HTML5
