@@ -2,17 +2,17 @@
 
 # Anton Zaprutski
 
-## __Contacts__: 
+### __Contacts__: 
 * Location: Minsk, Belarus
 * Email: anton.zaprutski@gmail.com
 * Phone: +375 29 8309954
 * Discord: MLDX#0499
 * GitHub: [Mldx](https://github.com/Mldx)
 
-## About me: 
+### About me: 
 My name is Anton and I want to study Front-End Development at RSScool. In 2017, I graduated BNTU as a Software Engineer. 
 
-## Skills:
+### Skills:
 * HTML5
 * CSS3 (basics)
 * Git (remote service GitHub)
@@ -20,12 +20,12 @@ My name is Anton and I want to study Front-End Development at RSScool. In 2017, 
 * Photoshop
 * JavaScript in progress...
 
-## Code Example
+### Code Example
 ```
 function sum(a,b) {
     return a + b;
 }
 ```
-## Langusges: 
+### Langusges: 
 * Russian - native
 * English - A1
