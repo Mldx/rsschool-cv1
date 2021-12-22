@@ -2,7 +2,7 @@
 
 # Anton Zaprutski
 
-## __Contacts__: 
+## Contacts: 
 * Location: Minsk, Belarus
 * Email: anton.zaprutski@gmail.com
 * Phone: +375 29 8309954
