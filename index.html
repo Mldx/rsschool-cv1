@@ -2,42 +2,216 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 
-    <title>CV Zaprutski</title>
+  <title>CV Zaprutski</title>
 </head>
 
 <body>
-    <div class="main-section">
-        <header>
-            <div class="backPersonAvatar"> <img class="personAvatar" src="images/photo.png" alt="photo"></div>
-            <ul class="personInfo">
-                <li class="list-1">
-                    <h1> Anton Zaprutski </h1>
-                </li>
-                <li class="list-2">Student RSSchool, Frontend stage#0 </li>
-                <li class="list-3">Greetings, my name is Anton Zaprustski. I come from Belarus. I am 26-year-old. I have
-                    graduated BNTU, faculty of software engineering. Currently, I am studying at RS School. Studying is
-                    my
-                    pleasure, I enjoy uncovering new ways to improve
-                    myself.
-                </li>
+  <div class="main-section">
+    <header>
+      <div class="backPersonAvatar"> <img class="personAvatar" src="images/photo.png" alt="photo"></div>
+      <ul class="personInfo">
+        <li class="list-1">
+          <h1> Anton Zaprutski </h1>
+        </li>
+        <li class="list-2">Student RSSchool, Frontend stage#0 </li>
+        <li class="list-3">Greetings, my name is Anton Zaprustski. I come from Belarus. I am 26-year-old. I have
+          graduated BNTU, faculty of software engineering. Currently, I am studying at RS School. Studying is
+          my
+          pleasure, I enjoy uncovering new ways to improve
+          myself.
+        </li>
+      </ul>
+      <nav class="navigation">
+        <ul class="navUl">
+          <li class="navItem"><a href="#contacts">Contacts</a></li>
+          <li class="navItem"><a href="#skills">Skills</a></li>
+          <li class="navItem"><a href="#projects">Projects</a></li>
+          <li class="navItem"><a href="#code">Code Example</a></li>
+          <li class="navItem"><a href="#languages">Languages</a></li>
+          <li class="navItem"><a href="#education">Education</a></li>
+          <li class="navItem"><a href="#hobby">Hobby</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="item-1">
+        <div class="contacts headCon">
+          <a id="contacts">
+            <h2 class="article">Contacts</h2>
+          </a>
+          <ul>
+            <li class="list-1">
+              <a href="tel:+375298309954"><span>Phone:</span>&nbsp; +375 29 8309954</a>
+            </li>
+            <li class="list-2"><span>Discord:</span>&nbsp; MLDX#0499</li>
+            <li class="list-3">
+              <a href="mailto:anton.zaprutski@gmail.com"><span>Email:</span>&nbsp;
+                Anton.zaprutski@gmail.com
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="skills headCon">
+          <a id="skills">
+            <h2 class="article">Skills</h2>
+          </a>
+          <div class="skItem0">
+            <ul class="skSpisok1">
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Photoshop</li>
             </ul>
-            <nav class="navigation">
-                <ul class="navUl">
-                    <li class="navItem"><a href="#contacts">Contacts</a></li>
-                    <li class="navItem"><a href="#skills">Skills</a></li>
-                    <li class="navItem"><a href="#projects">Projects</a></li>
-                    <li class="navItem"><a href="#code">Code Example</a></li>
-                    <li class="navItem"><a href="#languages">Languages</a></li>
-                    <li class="navItem"><a href="#education">Education</a></li>
-                    <li class="navItem"><a href="#hobby">Hobby</a></li>
-                </ul>
-            </nav>
-        </header>
+            <ul class="skSpisok2">
+              <li><span class="dot">•••••••<span class="dotGrey">•••</span></span>
+              </li>
+              <li><span class="dot">••••••<span class="dotGrey">••••</span></span>
+              </li>
+              <li><span class="dot">••<span class="dotGrey">••••••••</span></span>
+              </li>
+              <li><span class="dot">••••••••<span class="dotGrey">••</span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="projects headCon">
+          <a id="projects">
+            <h2 class="article">Projects</h2>
+          </a>
+          <div class="prItem0">
+            <a href="https://mldx.github.io/rsschool-cv/cv">
+              <div class="prItem-1">
+                <h4>CV#1. Markdown & Git</h4>
+                <img src="images/project1.PNG" alt="project1">
+                <div class="prBack"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="codeExample headCon">
+          <a id="code">
+            <h2 class="article">Code Example</h2>
+          </a>
+          <div class="codItem0">
+            <div class="codItem1">
+              <h4>HTML code</h4>
+              <pre>
+      &#60;div class="contacts headCon"&#62;
+        &#60;h2 class="article"&#62;Contacts&#60;/h2&#62;
+        &#60;ul&#62;
+          &#60;li class="list-1"&#62;+375 29 8309954&#60;/li&#62;
+          &#60;li class="list-2"&#62; MLDX#0499&#60;/li&#62;
+          &#60;li class="list-3"&#62;Anton.zaprutski@gmail.com&#60;/li&#62;
+        &#60;/ul&#62;
+      &#60;/div&#62;
+      </pre>
+            </div>
+            <div class="codEitem2">
+              <h4>CSS code</h4>
+              <pre>
+      .article {
+        border: 2px solid red;
+        width: 400px;
+        display: flex;
+        justify-content: start;
+        padding: 10px 20px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+      }
+      </pre>
+            </div>
+          </div>
+        </div>
+
+        <div class="languages headCon">
+          <a id="languages">
+            <h2 class="article">Languages</h2>
+          </a>
+          <div class="lanItem0">
+            <div class="lanItem1">
+              <h4>Russian</h4>
+              <div class="circle0">
+                <img src="images/circle100.png" alt="circle100">
+                <span>C2</span>
+              </div>
+            </div>
+            <div class="lanItem2">
+              <h4>English</h4>
+              <div class="circle0">
+                <img src="images/сircle25.png" alt="circle25">
+                <span>A1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="item-2">
+        <div class="education headCon">
+          <a id="education">
+            <h2 class="article">Education</h2>
+          </a>
+          <div class="edItem0">
+            <div class="edItem1">
+              <span class="dash"></span>
+              <span class="edSpan">2013-2017</span>
+              <h3>Software engineer</h3>
+              <span>Belarusian National Technical University</span>
+            </div>
+            <div class="edItem2">
+              <span class="dash"></span>
+              <span class="edSpan">2021-Now</span>
+              <h3>JavaScript / Front-end development </h3>
+              <span>RSSchool</span>
+            </div>
+          </div>
+        </div>
+        <div class="hobby headCon">
+          <a id="hobby">
+            <h2 class="article">Hobby</h2>
+          </a>
+          <div class="hobItem0">
+            <div class="hobItem1">
+              <span class="dash"></span>
+              <h4>Learning</h4>
+              <img src="images/learn.svg" alt="learn">
+              <span class="cont">I like learning new things that will help me to improve <br> my
+                qualifications as a
+                specialist.</span>
+            </div>
+            <div class="hobItem2">
+              <span class="dash"></span>
+              <h4>Programming</h4>
+              <img src="images/prog.png" alt="programming">
+              <span class="cont">Programming has been my passion since adolescence. <br> I have always
+                enjoyed the way simple code transforms into something beautiful.</span>
+            </div>
+            <div class="hobItem3">
+              <span class="dash"></span>
+              <h4>Gaming</h4>
+              <img src="images/gamepad.svg" alt="gamepad">
+              <span class="cont">Gaming is one of the first activities I have ever encountered with a
+                computer. It
+                always provides suitable challenge and grants satisfaction upon <br> passing it.</span>
+            </div>
+            <div class="hobItem4">
+              <span class="dash"></span>
+              <h4>Photographing</h4>
+              <img src="images/camera.svg" alt="camera">
+              <span class="cont">I enjoy the way photography fixes the moment of the reality I really
+                wanted to grasp.
+                Memory serves well, photography serves better.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 </body>
 
 </html>
