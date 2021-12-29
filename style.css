@@ -317,6 +317,7 @@ main .item-2 {
 
 .projects h4 {
   cursor: pointer;
+  justify-content: center;
 }
 
 .prBack {
@@ -328,6 +329,10 @@ main .item-2 {
   opacity: 1;
   z-index: 1;
   background: linear-gradient(0deg, #fdf1ff7a 40%, rgba(255, 243, 243, 0.644) 75%);
+}
+
+.projects a:hover .prBack {
+  opacity: 0.6;
 }
 
 
