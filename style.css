@@ -472,3 +472,37 @@ main .item-2 {
 .cont {
   width: 400px;
 }
+
+/*Footer*/
+
+footer {
+  display: flex;
+  padding: 5px;
+  padding: 0 80px 0;
+}
+
+.footerSpisok {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerSpisok li:hover img {
+  filter: invert(35%) sepia(40%) saturate(1773%) hue-rotate(244deg) brightness(55%) contrast(100%);
+}
+
+.footerSpisok .list-1 img {
+  height: 40px;
+}
+
+.footerSpisok .list-2 {
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: context-menu;
+}
+
+.footerSpisok .list-3 img {
+  height: 30px;
+}
