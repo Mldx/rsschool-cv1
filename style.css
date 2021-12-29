@@ -506,3 +506,83 @@ footer {
 .footerSpisok .list-3 img {
   height: 30px;
 }
+
+/*Animations*/
+
+.personAvatar:hover {
+  animation: rotate5 1s 1;
+}
+
+.article:hover {
+  animation: articleAnim 0.7s linear infinite;
+}
+
+.navigation li:hover a::after {
+  animation: liBoard linear 1.5s infinite running;
+}
+
+@keyframes rotate5 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  33% {
+    transform: rotate(5deg);
+  }
+
+  66% {
+    transform: rotate(-5deg);
+  }
+}
+
+@keyframes articleAnim {
+  0% {
+    border-image: linear-gradient(10deg, rgb(255, 167, 146)30%, rgb(145, 74, 180)60%) 1;
+  }
+
+  33% {
+    border-image: linear-gradient(130deg, rgb(255, 167, 146)30%, rgb(145, 74, 180)60%) 1;
+  }
+
+  66% {
+    border-image: linear-gradient(260deg, rgb(255, 167, 146)30%, rgb(145, 74, 180)60%) 1;
+  }
+}
+
+@keyframes liBoard {
+  0% {
+    background: rgba(255, 168, 146, 0);
+    width: 0%;
+    left: -10%;
+  }
+
+  20% {
+    background: rgb(255, 167, 146);
+    width: 30%;
+    left: -10%;
+  }
+
+  40% {
+    background: rgb(140, 65, 175);
+    width: 30%;
+    left: 20%;
+  }
+
+  60% {
+    background: rgb(140, 65, 175);
+    width: 30%;
+    left: 50%;
+  }
+
+  80% {
+    background: rgb(140, 65, 175);
+    width: 30%;
+    left: 70%;
+  }
+
+  100% {
+    background: rgba(140, 65, 175, 0);
+    width: 0%;
+    left: 102%;
+  }
+}
